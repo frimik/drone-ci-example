@@ -1,7 +1,7 @@
 local Pipeline(name, image) = {
   kind: 'pipeline',
   type: 'kubernetes',
-  name: 'default',
+  name: name,
 
   steps: [
     {
